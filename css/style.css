@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin:auto;
+}
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+nav{
+    background: #252d2f;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} */
+.logo{
+    width:20%;
+
+}
+.menu{
+  width: 80%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    align-items: center;
+}
+ ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+    
+ }
+ .menu ul li:hover a{
+    background-color: green;
+ }
+ 
+ #banner{
+    background: url(../image/focalman.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+ }
+ #banner .container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+ }
+ #banner .container h1{
+    border-top: 2px solid#fff;
+    border-bottom: 1px solid#fff;
+    margin:50px auto;
+    color: #fff;
+    text-transform: uppercase;
+ }
+
+ #banner .container a{
+    border: 2px solid;
+    padding:15px 42px;
+    color: #fff;
+    text-transform: uppercase;
+ }
+/* parag section start */
+ #parag{
+    padding:50px;
+ }
+ #parag .info {
+    display: flex; 
+    /* margin: 20px 20px; */
+    width:33%;
+    text-align:left;  
+    padding: 20px 20px ; 
+ }
+
+ #parag .info .valu h3{  
+    font-size: 24px;
+    color: #566366;
+    font-weight: 800;
+    padding:50px 50px;
+    margin: auto ;
+ }
+
+ #parag .info .valu p{
+    font-size: 12px;
+    color:#566366;
+    font-weight: 200;
+    /* margin: auto; */
+ }
+ 
+
+
+
+
+ /* about section start */
+ #about .about_img{
+    width:30%;
+
+ }
+ /* #about .about_img img{
+    width: 100%;
+ } */
+ #about .about_item{
+    width:70%;
+ }
